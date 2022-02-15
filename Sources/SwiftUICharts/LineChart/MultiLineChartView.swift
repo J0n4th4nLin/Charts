@@ -43,14 +43,14 @@ public struct MultiLineChartView: View {
         return 0
     }
     
-    var frame = CGSize(width: 180, height: 120)
+    var frame = CGSize(width: 360, height: 240)
     private var rateValue: Int?
     
     public init(data: [([Double], GradientColor)],
                 title: String,
                 legend: String? = nil,
                 style: ChartStyle = Styles.lineChartStyleOne,
-                form: CGSize = ChartForm.medium,
+                form: CGSize = ChartForm.mdeium,
                 rateValue: Int? = nil,
                 dropShadow: Bool = true,
                 valueSpecifier: String = "%.1f") {
