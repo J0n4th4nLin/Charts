@@ -50,7 +50,7 @@ public struct MultiLineChartView: View {
                 title: String,
                 legend: String? = nil,
                 style: ChartStyle = Styles.lineChartStyleOne,
-                form: CGSize = ChartForm.medium,
+                form: CGSize = ChartForm.extraLarge,
                 rateValue: Int? = nil,
                 dropShadow: Bool = true,
                 valueSpecifier: String = "%.1f") {
